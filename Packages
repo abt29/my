@@ -13,7 +13,7 @@ Author: abt29 <atayyeb29@gmail.com>
 
 Package: afc2d_1.2_iphoneos-arm
 Priority: optional
-Section: System
+Section: Tweaks
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Architecture: iphoneos-arm
 Filename: ./debs/afc2d_1.2_iphoneos-arm.deb
@@ -35,7 +35,7 @@ Version: 1.0r-102
 Description: Downgrade iOS apps to any previous version! No AppSync needed!!!??? https://beta.unlimapps.com
 Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
 Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
-Section: System
+Section: Tweaks
 Depends: firmware (>= 7.0), mobilesubstrate
 Conflicts: it.marcocristalli.asupdatehider
 Priority: optional
