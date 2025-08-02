@@ -2,8 +2,8 @@ Origin: Abt29 Repo
 Label: AbuTayyeb Repo
 Suite: stable
 Version: 1.0
-Codename: Decimation
+Codename: abt29
 Architectures: iphoneos-arm
 Components: main
-Description: Decimation's Repo
+Description: ABT29's Repo
 MD5Sum:
