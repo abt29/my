@@ -1,27 +1,29 @@
-Package: com.appsyncunified_84.0
+Package: appsync_84.0
 Version: 84.0
 Section: Tweaks
 Maintainer: Atayyeb <atayyeb29@gmail.com>
 Depends: firmware (9), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.appsyncunified_84.0.deb
+Filename: ./debs/appsync_84.0.deb
 Size: 24
 Description: This is a sample new package. Firmware should be greater than 7.0
 Name: Appsync 84
 Author: abt29 <atayyeb29@gmail.com>
-Depiction: https://abt29.github.io/my/depictions/?p=com.appsyncunified_84.0
+Depiction: https://abt29.github.io/my/depictions/?p=appsync_84.0
 
-Package: afc2d_1.2_iphoneos-arm
+
+Package: afc2d_1.2
 Section: Tweaks
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Architecture: iphoneos-arm
-Filename: ./debs/afc2d_1.2_iphoneos-arm.deb
+Filename: ./debs/afc2d_1.2.deb
 Version: 1.2
 Depends: firmware (<< 8.0) | mobilesubstrate
 Description: allow full file-system access over USB
 Name: Apple File Conduit "2"
 Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: https://abt29.github.io/my/depictions/?p=afc2d_1.2_iphoneos-arm
+Depiction: https://abt29.github.io/my/depictions/?p=afc2d_1.2
+
 
 Package: appadmin-1.0r-102
 Name: App Admin
@@ -34,6 +36,7 @@ Filename: ./debs/appadmin-1.0r-102.deb
 Author: UnlimApps Inc.
 Maintainer: UnlimApps Inc.
 Depiction: https://abt29.github.io/my/depictions/?p=appadmin-1.0r-102
+
 
 Package: checkmatestore-1.2
 Name: Checkmate, Store!
