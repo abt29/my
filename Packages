@@ -6,56 +6,45 @@ Depends: firmware (9), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/com.appsyncunified_84.0.deb
 Size: 24
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
 Description: This is a sample new package. Firmware should be greater than 7.0
 Name: Appsync 84
 Author: abt29 <atayyeb29@gmail.com>
+Depiction: https://abt29.github.io/my/depictions/?p=com.appsyncunified_84.0
 
 Package: afc2d_1.2_iphoneos-arm
-Priority: optional
 Section: Tweaks
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Architecture: iphoneos-arm
 Filename: ./debs/afc2d_1.2_iphoneos-arm.deb
 Version: 1.2
-Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: firmware (<< 8.0) | mobilesubstrate
-Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Description: allow full file-system access over USB
 Name: Apple File Conduit "2"
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
-Tag: purpose::daemon, role::enduser
+Depiction: https://abt29.github.io/my/depictions/?p=afc2d_1.2_iphoneos-arm
 
-Package: app admin-1.0r-102
+Package: appadmin-1.0r-102
 Name: App Admin
 Version: 1.0r-102
 Description: Downgrade iOS apps to any previous version! No AppSync needed!!!??? https://beta.unlimapps.com
-Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
-Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Depiction: https://abt29.github.io/my/depictions/?p=appadmin-1.0r-102
 Section: Tweaks
 Depends: firmware (>= 7.0), mobilesubstrate
-Conflicts: it.marcocristalli.asupdatehider
-Priority: optional
 Architecture: iphoneos-arm
-Filename: ./debs/app admin-1.0r-102.deb
+Filename: ./debs/appadmin-1.0r-102.deb
 Author: UnlimApps Inc.
 Maintainer: UnlimApps Inc.
-Sileodepiction: https://captainw.github.io/repo/sileodepictions/com.unlimapps.uaupdatetools/s.json
-
 
 Package: checkmatestore 1.2
 Name: Checkmate, Store!
 Depends: mobilesubstrate, firmware (>= 2.0)
 Architecture: iphoneos-arm
 Description: Disable capability limits in the App Store.
-Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Depiction: https://abt29.github.io/my/depictions/?p=checkmatestore-1.2.deb
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Filename: ./debs/checkmatestore-1.2.deb
 Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Section: Tweaks
 Version: 1.2
 Installed-Size: 164
-
