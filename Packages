@@ -29,7 +29,7 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
 Tag: purpose::daemon, role::enduser
 
-Package: com.unlimapps.uaupdatetools.cw_1.0r-102
+Package: app admin-1.0r-102
 Name: App Admin
 Version: 1.0r-102
 Description: Downgrade iOS apps to any previous version! No AppSync needed!!!??? https://beta.unlimapps.com
@@ -40,9 +40,22 @@ Depends: firmware (>= 7.0), mobilesubstrate
 Conflicts: it.marcocristalli.asupdatehider
 Priority: optional
 Architecture: iphoneos-arm
-Filename: ./debs/com.unlimapps.uaupdatetools.cw_1.0r-102.deb
+Filename: ./debs/app admin-1.0r-102.deb
 Author: UnlimApps Inc.
 Maintainer: UnlimApps Inc.
 Sileodepiction: https://captainw.github.io/repo/sileodepictions/com.unlimapps.uaupdatetools/s.json
 
+
+Package: checkmatestore 1.2
+Name: Checkmate, Store!
+Depends: mobilesubstrate, firmware (>= 2.0)
+Architecture: iphoneos-arm
+Description: Disable capability limits in the App Store.
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: ./debs/checkmatestore-1.2.deb
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: Tweaks
+Version: 1.2
+Installed-Size: 164
 

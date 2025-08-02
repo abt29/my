@@ -1,0 +1,23 @@
+<package>
+	<id>checkmatestore-1.1</id>
+	<name>checkmate store 1.1</name>
+	<version>1.1</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>9</maxiOS>
+			<otherVersions>supported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>untuk app store</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
