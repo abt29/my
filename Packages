@@ -1,3 +1,16 @@
+Package: appadmin-1.0r-102
+Version: 1.0r-102
+Name: App Admin
+Section: Tweaks
+Maintainer: UnlimApps Inc.
+Depends: firmware (>= 7.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/appadmin-1.0r-102.deb
+Size: 531
+Description: untuk downgrade paket dari apple store
+Author: UnlimApps Inc.
+Depiction: https://abt29.github.io/my/depictions/?p=appadmin-1.0r-102
+
 Package: appsync_84.0
 Version: 84.0
 Section: Tweaks
@@ -24,20 +37,6 @@ Name: Apple File Conduit "2"
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: https://abt29.github.io/my/depictions/?p=afc2d_1.2
 
-
-Package: appadmin-1.0r-102
-Name: App Admin
-Version: 1.0r-102
-Description: untuk downgrade paket dari apple store
-Section: Tweaks
-Depends: firmware (>= 7.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/appadmin-1.0r-102.deb
-Author: UnlimApps Inc.
-Maintainer: UnlimApps Inc.
-Depiction: https://abt29.github.io/my/depictions/?p=appadmin-1.0r-102
-
-
 Package: checkmatestore-1.2
 Name: Checkmate, Store!
 Depends: mobilesubstrate, firmware (>= 2.0)
@@ -50,3 +49,4 @@ Section: Tweaks
 Version: 1.2
 Installed-Size: 164
 Depiction: https://abt29.github.io/my/depictions/?p=checkmatestore-1.2.deb
+
