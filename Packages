@@ -10,7 +10,7 @@ Section: system
 Filename: ./debs/filza_4.0.1-3.deb
 Maintainer: abt29 <abt29@gmail.com>
 Author: abt29 <abt29@hackulo.us>
-Depiction: https://stim-lpi.ac.id/apt/cd/depictions/filza_4.0.1-3
+Depiction: https://abt29.github.io/my/depictions/filza_4.0.1-3
 
 
 Package: com.cydiabc.appsyncunified
