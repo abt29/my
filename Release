@@ -1,9 +1,8 @@
-Origin: Abt29 Repo
-Label: AbuTayyeb Repo
+Origin: abt29
+Label: ABT29
 Suite: stable
 Version: 1.0
-Codename: abt29
+Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: ABT29's Repo
-MD5Sum:
+Description: ABT29- a tweak repo

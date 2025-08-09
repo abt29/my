@@ -1,52 +1,83 @@
-Package: appadmin-1.0r-102
-Version: 1.0r-102
-Name: App Admin
-Section: Tweaks
-Maintainer: UnlimApps Inc.
-Depends: firmware (>= 7.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/appadmin-1.0r-102.deb
-Size: 531
-Description: untuk downgrade paket dari apple store
-Author: UnlimApps Inc.
-Depiction: https://abt29.github.io/my/depictions/?p=appadmin-1.0r-102
 
-Package: appsync_84.0
+Package: com.tigisoftware.filza
+Version: 4.0.1-3
+Architecture: iphoneos-arm
+Name: Filza File Manager
+Description: Filza manager 4 cuy
+Pre-Depends: firmware (>= 4.0)
+Installed-Size: 31815
+Section: system
+Filename: ./debs/filza_4.0.1-3.deb
+Maintainer: abt29 <abt29@gmail.com>
+Author: abt29 <abt29@hackulo.us>
+Depiction: https://stim-lpi.ac.id/apt/cd/depictions/filza_4.0.1-3
+
+
+Package: com.cydiabc.appsyncunified
 Version: 84.0
-Section: Tweaks
-Maintainer: Atayyeb <atayyeb29@gmail.com>
-Depends: firmware (9), mobilesubstrate
 Architecture: iphoneos-arm
+Name: AppSync Unified 8.4
+Description: ????A12,????unc0ver??,??Chimera??,???????App?
+Depends: firmware (>= 5.0), firmware (<= 14.9), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Installed-Size: 496
+Section: Tweak
 Filename: ./debs/appsync_84.0.deb
-Size: 24
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: Appsync 84
-Author: abt29 <atayyeb29@gmail.com>
-Depiction: https://abt29.github.io/my/depictions/?p=appsync_84.0
 
-
-Package: afc2d_1.2
-Section: Tweaks
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Architecture: iphoneos-arm
-Filename: ./debs/afc2d_1.2.deb
-Version: 1.2
-Depends: firmware (<< 8.0) | mobilesubstrate
-Description: allow full file-system access over USB
-Name: Apple File Conduit "2"
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: https://abt29.github.io/my/depictions/?p=afc2d_1.2
-
-Package: checkmatestore-1.2
+Package: uk.invoxiplaygames.checkmatestore
 Name: Checkmate, Store!
 Depends: mobilesubstrate, firmware (>= 2.0)
 Architecture: iphoneos-arm
 Description: Disable capability limits in the App Store.
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Filename: ./debs/checkmatestore-1.2.deb
 Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Section: Tweaks
 Version: 1.2
 Installed-Size: 164
-Depiction: https://abt29.github.io/my/depictions/?p=checkmatestore-1.2.deb
+Filename: ./debs/checkmatestore-1.2.deb
+
+
+Package: com.unlimapps.uaupdatetools.cw
+Version: 1.0r-102
+Architecture: iphoneos-arm
+Name: App Admin
+Description: Downgrade iOS apps to any previous version!
+Depends: firmware (>= 7.0), mobilesubstrate
+Section: System
+Filename: ./debs/appadmin_1.0r-102.deb
+Maintainer: UnlimApps Inc.
+Author: UnlimApps Inc.
+
+Package: com.luomao.GamePlayer
+Version: 3.4
+Section: utils
+Priority: optional
+Pre-Depends: firmware (>= 6.0), mobilesubstrate
+Depends:
+Architecture: iphoneos-arm
+Installed-Size: 2800
+Maintainer: Maocai Luo <luomao2000@tom.com>
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported.
+Filename: ./debs/GamePlayer.deb
+
+Package: com.saurik.afc2d
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Description: allow full file-system access over USB
+Name: Apple File Conduit "2"
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Tag: purpose::daemon, role::enduser
+Filename: ./debs/afc2d_1.2.deb
 
